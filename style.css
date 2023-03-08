@@ -1,0 +1,617 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style*/
+body{background-image:url(img/151.JPG);
+background-repeat: no-repeat;
+}
+
+.container{width: 300px;
+	height: 300px;
+margin: 100px 530px;
+background-color: white;
+border-radius: 60px;
+cursor: pointer;
+}
+
+.judul{font-size: 25px;
+text-align: center;
+font-weight: bolder;
+padding-top: 20px;
+font-family: times new romans;
+}
+
+.main{margin: 20px 50px;}
+
+.login {width: 200px;
+height: 40px;
+font-weight: bolder;
+font-size: 30px;
+font-style: italic;
+color: white;
+margin: 20px 50px;
+background-image: url(img/wood.png);
+border-radius: 60px;}
+
+.login:hover{color: black;
+cursor: pointer;}
+
+/*beranda*/
+
+.badan{ width: 1340px;
+	height: 1000px;
+	background-image: url(img/153.JPG);
+	background-size: 1500px 1000px;}
+
+
+ .slidebar{ width: 1345px;
+ height: 80px;
+ background-color: white; 
+ position: fixed;
+ border: 1px solid black;
+}
+
+ .logo{background-image: url(img/logo.png);
+width: 70px;
+height: 70px;
+background-size: 70px 70px;
+float: left;
+}
+ 
+.pencarian{ background-image: url(img/pencarian.png);
+width: 20px;
+height: 20px;
+background-size: 20px 20px;
+margin-top: 20px;
+float: left; }
+
+.pencarian2{ margin-top: 20px;
+float: left;
+ }
+
+/*profil*/
+.kiri{width: 300px;
+height: 800px;
+text-align: center;
+margin-top: 100px ;
+border: 2px dashed black;
+background-color: white;
+border-radius: 60px;
+float: left;
+}
+
+.judul2{ font-family: arial;
+font-size: 20px;
+font-weight: bolder;
+padding-top: 10px; }
+
+.container2{ width: 300px;
+height: 70px;
+background-color: white;
+border-radius: 10px;
+text-align: justify;
+color: black;
+font-size: 22px;
+font-weight: bold;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.container2:hover{width: 300px;
+height: 70px;
+color: black;
+background-color: whitesmoke;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.clear{clear: left;}
+
+.profil{ width: 50px;
+height: 50px;
+background-image: url(img/profil.png);
+background-size: 50px;
+border-radius: 200px;
+border: 1px solid black;
+float: left;
+}
+
+.nama{font-size: 17px;
+font-family: arial;
+padding-left: 70px;
+padding-top: 10px;}
+
+/*Grub programer*/
+.container3{ width: 300px;
+	height: 70px;
+background-color: white;
+border-radius: 10px;
+text-align: justify;
+color: black;
+font-size: 22px;
+font-weight: bold;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.container3:hover{width: 300px;
+height: 70px;
+background-color: whitesmoke;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.clear2{clear: left;}
+
+.grub{ width: 70px;
+	height: 50px;
+	background-image: url(img/buku.png);
+background-size: 70px;
+border: 1px solid black;
+border-radius: 10px;
+margin-left: 2px;
+float: left;
+}
+
+.kelasan{font-size: 17px;
+font-family: arial;
+padding-left: 90px;
+padding-top: 10px;}
+
+.container4{ width: 300px;
+	height: 70px;
+background-color: white;
+border-radius: 10px;
+text-align: justify;
+color: black;
+font-size: 22px;
+font-weight: bold;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.container4:hover{width: 300px;
+height: 70px;
+background-color: whitesmoke;
+border-radius: 10px;
+cursor: pointer;}
+
+.clear3{clear: left;}
+
+.jadwal{ width: 70px;
+	height: 50px;
+	background-image: url(img/buku2.png);
+background-size: 70px;
+border: 1px solid black;
+border-radius: 10px;
+margin-left: 2px;
+float: left;
+}
+
+.jadwal2{font-size: 17px;
+font-family: arial;
+padding-left: 90px;
+padding-top: 10px;}
+
+.container5{ width: 300px;
+	height: 70px;
+background-color: white;
+border-radius: 10px;
+text-align: justify;
+color: black;
+font-size: 22px;
+font-weight: bold;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.container5:hover{width: 300px;
+height: 70px;
+background-color: whitesmoke;
+border-radius: 10px;
+cursor: pointer;}
+
+.clear4{clear: left;}
+
+.programer{ width: 70px;
+	height: 50px;
+	background-image: url(img/buku3.png);
+background-size: 70px;
+border: 1px solid black;
+border-radius: 10px;
+margin-left: 2px;
+float: left;}
+
+.debat{font-size: 17px;
+font-family: arial;
+padding-left: 90px;
+padding-top: 10px;}
+
+.container6{ width: 300px;
+	height: 70px;
+background-color: white;
+border-radius: 10px;
+text-align: justify;
+color: black;
+font-size: 22px;
+font-weight: bold;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.container6:hover{width: 300px;
+height: 70px;
+background-color: whitesmoke;
+border-radius: 10px;
+cursor: pointer;}
+
+.clear5{clear: left;}
+
+.programer2{ width: 70px;
+	height: 50px;
+	background-image: url(img/buku4.png);
+background-size: 70px;
+border: 1px solid black;
+border-radius: 10px;
+margin-left: 2px;
+float: left;}
+
+.debat2{font-size: 17px;
+font-family: arial;
+padding-left: 90px;
+padding-top: 10px;}
+
+.tengah{width: 700px;
+height: 800px;
+background-color: white;
+border: 2px dashed black;
+border-radius: 60px;
+float: left;
+margin-top: 100px;
+margin-left: 50px;}
+
+/*bagian akun status online atau offline*/
+
+.kanan{ width: 200px;
+height: 800px;
+background-color: white;
+border: 2px dashed black; 
+border-radius: 30px;
+float: right;
+margin-top: 100px;
+margin-left: 10px;
+overflow: hidden;
+}
+
+.kananstatus{width: 200px;
+height: 400px;
+background-color: white;
+text-align: center;
+font-family: arial;
+font-size: 16px;
+font-weight: bold;
+z-index: 1; 
+}
+
+.kananstatus2{ width: 200px;
+height: 400px;
+background-color: white;
+text-align: center;
+font-family: arial;
+font-size: 16px;
+font-weight: bold;
+z-index: 2;
+}
+
+
+/*profil*/
+ .profil2{
+ 	background-image: url(img/wood.png);
+ }
+
+ .slidebar2{ width: 1345px;
+ height: 80px;
+ background-color: white; 
+ position: fixed;
+ border: 1px solid black;
+}
+
+ .logo2{background-image: url(img/logo2.png);
+width: 70px;
+height: 70px;
+background-size: 70px 70px;
+float: left;
+}
+ 
+.pencarian3{ background-image: url(img/pencarian2.png);
+width: 20px;
+height: 20px;
+background-size: 20px 20px;
+margin-top: 20px;
+float: left; }
+
+.pencarian4{ margin-top: 20px;
+float: left;
+ }
+
+.container8{
+	width: 800px;
+	height: 1000px;
+	background-color: whitesmoke;
+margin-top: 90px;
+margin-left: 250px;
+border-radius: 60px;
+float: left;
+}
+
+.wallpaper{
+	width: 700px;
+	height: 320px;
+	margin-left: 50px;
+	margin-top: 10px;
+	background-image: url(img/152.JPG);
+	background-size: 700px 700px;
+	border-radius: 20px;
+	border: 1px solid black;
+}
+
+.fotoprofil{width: 180px;
+height: 200px;
+background-image: url(img/profil.png);
+background-size: 180px 220px;
+border-radius: 30px;
+border: 10px solid white;
+margin-top: -100px;
+margin-left: 50px;
+
+}
+
+.namaprofil{width: 400px;
+	height: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: arial;
+	margin-top: 100px;
+	margin-left: 200px;
+
+}
+
+.keahlian{width: 400px;
+	height: 20px;
+	font-family: arial;
+	font-size: 16px;
+	margin-left: 200px;
+
+}
+
+.container9{
+	width: 450px;
+	height: 500px;
+	background-color: whitesmoke;
+	border: 1px solid black;
+	border-radius: 10px;
+	float: left;
+
+}
+
+.container10{
+		width: 300px;
+	height: 500px;
+	background-color: whitesmoke;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-left: 45px;
+	float: left;
+}
+
+
+.judul3{ margin-top: 10px;
+font-family: arial; }
+
+.biografi{ width: 300px;
+height: 26px; 
+font-size: 18px;
+font-family: arial;
+font-weight: bold;
+color: black;
+background-color: whitesmoke;
+box-shadow: inset 0 0 0 0 orange;
+transition: ease-out 0.5s;
+border-radius: 10px;
+margin-top: 30px;
+margin-left: 50px;
+ }
+.biografi:hover{ color: black;
+box-shadow: inset 300px 0 0 0 orange;
+cursor: pointer; }
+
+.judul4{ margin-top: 10px;
+font-family: arial; }
+
+.album{ width: 200px;
+height: 26px; 
+font-size: 18px;
+font-family: arial;
+font-weight: bold;
+color: black;
+background-color: whitesmoke;
+box-shadow: inset 0 0 0 0 orange;
+transition: ease-out 0.5s;
+border-radius: 10px;
+margin-top: 30px;
+margin-left: 10px;
+ }
+.album:hover{ color: black;
+box-shadow: inset 200px 0 0 0 orange;
+cursor: pointer; }
+
+/*biografi*/
+.biografitbh { background-image: url(img/wood2.png); }
+
+.container11{
+	width: 800px;
+	height: 1000px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.judul3{
+font-family: arial;
+font-size: 20px;
+margin-left: 280px;
+}
+.sekolah{margin-top: 20px;
+margin-left: 20px;
+margin-right: 5px;}
+.sekolah2{width: 700px;
+height: 150px;}
+
+.sekolah3{ width: 60px;
+height: 30px;
+background-color: white;
+border-radius: 10px;
+box-shadow: inset 0 0 0 0 orange;
+transition: ease-out 0.5s;
+margin-left: 700px;
+margin-top: 8px;}
+.sekolah3:hover{
+box-shadow: inset 60px 0 0 0 orange;
+}
+
+.pekerjaan{margin-top: 20px;
+margin-left: 10px;
+margin-right: 5px;}
+.pekerjaan2{width: 700px;
+height: 150px;}
+
+.pekerjaan3{ width: 60px;
+height: 30px;
+background-color: white;
+border-radius: 10px;
+box-shadow: inset 0 0 0 0 orange;
+transition: ease-out 0.5s;
+margin-left: 700px;
+margin-top: 8px;}
+.pekerjaan3:hover{
+box-shadow: inset 60px 0 0 0 orange;
+}
+
+/*album*/
+.albumtbh { background-image: url(img/wood3.png); }
+
+/*grubprogramer*/
+.grubprogramer{width: 1500px;
+	height: 800px;
+background-image: url(img/grub.png);
+}
+
+.container12{width: 200px;
+height: 100px;
+background-color: whitesmoke;
+position: fixed;
+float: left;
+border: 1px solid black;
+cursor: pointer;
+}
+
+.con12{
+margin-top: 10px;
+margin-left: 10px;
+font-family: arial;
+font-size: 20px;
+font-weight: bold;
+}
+
+.grubinput{width: 20px;
+height: 20px;
+margin-top: 5px;
+background-image: url(img/pencarian3.png);
+background-size: 20px 20px;
+cursor: pointer;}
+
+.grubinput2{width: 150px;
+height: 18px;
+}
+
+.container13{width: 200px;
+height: 800px;
+background-color: whitesmoke;
+float: left;
+}
+
+.home{width: 200px;
+height: 50px;
+margin-top: 102px;
+background-color: white;
+font-family: arial;
+font-size: 20px;
+font-weight: bolder;
+box-shadow: inset 0 0 0 0 orange;
+transition: ease-out 0.5s;
+}
+
+.home:hover{width: 200px;
+height: 50px
+font-family: arial;
+font-size: 20px;
+font-weight: bolder;
+box-shadow: inset 200px 0 0 0 orange;
+cursor: pointer;
+}
+
+.container14{width: 700px;
+height: 800px;
+background-color: white;
+margin-left: 150px;
+float: left;
+}
+
+.container15{width: 295px;
+height: 800px;
+background-color: whitesmoke;
+float: right;
+}
